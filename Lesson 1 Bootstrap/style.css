@@ -1,6 +1,30 @@
 /* ----------------- Class CSS ----------------- */
+.overview {
+    background-color: #F4F1DE;
+}
+
+.author {
+    background-color:#F4F1DE;
+}
+
+.about-author {
+    color: midnightblue;
+}
+
+.showcase {
+    background-color: #81B29A;
+}
+
 .nb-bg-color {
-    background: #0b493c;
+    background: #3D405B;
+}
+
+.footer {
+    background: #3D405B;
+}
+
+.icon-white {
+    color: #FFF;
 }
 
 /* ----------------- ID CSS ----------------- */
@@ -10,6 +34,18 @@ a#nbMenuItem {
     padding-left: 20px;
 }
 
+h1#ovPadLeft {
+    padding-left: 20px;
+}
+
+p#ovPadLeft {
+    padding-left: 20px;
+}
+
+div#about {
+    width: 400px;
+    margin: auto;
+}
 
 /* -----------------Underline Animation CSS -----------------*/
 .hover-underline-animation {
