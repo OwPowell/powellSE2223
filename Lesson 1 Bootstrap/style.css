@@ -27,6 +27,31 @@
     color: #FFF;
 }
 
+.list-flex {
+    display:flex;
+    justify-content: space-between;
+}
+
+.list-flex h1 {
+    padding-right: 2rem;
+    font-size: 5rem;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.list-flex img {
+    border-radius: 1rem;
+    height: 8rem;
+}
+
+.list-flex p {
+    padding-right: 2rem;
+}
+
 /* ----------------- ID CSS ----------------- */
 a#nbMenuItem {
     font-size: 25px;
