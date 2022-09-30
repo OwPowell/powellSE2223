@@ -3,7 +3,11 @@
     background-color: #F4F1DE;
 }
 
-.author {
+.overview p{
+    font-size: 1.5rem;
+}
+
+.author, .procedure {
     background-color:#F4F1DE;
 }
 
@@ -41,6 +45,13 @@
 
 .list-group-item {
     border: none;
+    background-color:#F4F1DE;
+    font-size: 1.5rem;
+}
+
+.list-group-item:hover {
+    background-color:#e1ddc2;
+    color: #000;
 }
 
 .list-flex img {
