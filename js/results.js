@@ -3,13 +3,7 @@
 async function getData() {
     const response = await fetch('./data/Research-Data.csv');
     const data = await response.text(); // CSV in TEXT format
-
-    console.log(data);
-
     const table = data.split("\n").slice(1); // split into rows and cut 0th row
-    console.log(data.split("\n"));
-
-    console.log(table);
 
     const xImage = []; // image number
     const yCount = []; // % error for litter count
@@ -25,15 +19,11 @@ async function getData() {
         yPixel.push(pixel);
     });
 
-    console.log(yCount);
-
     return {xImage, yCount, yPixel};
 }
 
 async function createChart() {
     const data = await getData(); // createChart() waits until data is got
-
-    console.log(data);
 
     const ctx = document.getElementById('myChart');
     const myChart = new Chart(ctx, {
