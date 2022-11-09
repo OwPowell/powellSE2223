@@ -8,6 +8,8 @@ async function getData() {
 
     const table = data.split("\r\n").slice(1); // split into rows and cut 0th row
 
+    console.log(table);
+
     const xImage = []; // image number
     const yCount = []; // % error for litter count
     const yPixel = []; // % error for pixel coverage
@@ -18,7 +20,6 @@ async function getData() {
         xImage.push(image);
         const count = columns[1];
         yCount.push(count);
-        console.log(count);
         const pixel = columns[2];
         yPixel.push(pixel);
     });
