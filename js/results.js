@@ -6,7 +6,7 @@ async function getData() {
 
     console.log(data);
 
-    const table = data.split("\r\n").slice(1); // split into rows and cut 0th row
+    const table = data.split("\n").slice(1); // split into rows and cut 0th row
 
     console.log(table);
 
