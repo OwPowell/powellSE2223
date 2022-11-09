@@ -18,9 +18,12 @@ async function getData() {
         xImage.push(image);
         const count = columns[1];
         yCount.push(count);
+        console.log(count);
         const pixel = columns[2];
         yPixel.push(pixel);
     });
+
+    console.log(yCount);
 
     return {xImage, yCount, yPixel};
 }
