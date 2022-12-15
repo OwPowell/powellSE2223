@@ -1,6 +1,10 @@
 /* ----------------- Class CSS ----------------- */
-.overview {
+.overview, .home, .register, .signin {
     background-color: #F4F1DE;
+}
+
+.register, .signin {
+    padding: 7%;
 }
 
 .overview p{
@@ -64,10 +68,14 @@
 }
 
 /* ----------------- ID CSS ----------------- */
-a#nbMenuItem {
-    font-size: 25px;
-    padding-right: 20px;
-    padding-left: 20px;
+a#nbMenuItem, a#nbMenuButton {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+a#nbMenuButton {
+    border:#eae6e6 1px solid;
+    border-radius: 5px;
 }
 
 h1#ovPadLeft {
